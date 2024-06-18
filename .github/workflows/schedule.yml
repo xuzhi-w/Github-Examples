@@ -1,3 +1,5 @@
+name: schedule_workflow
+
 on: 
   schedule:
     - cron: '*/2 * * * *'
