@@ -1,5 +1,4 @@
 name: schedule_workflow
-
 on: 
   schedule:
     - cron: '*/2 * * * *'
@@ -10,3 +9,4 @@ jobs:
     steps:
       - name: Echo current time
         run: echo "The current server time is ${date}"
+
