@@ -2,7 +2,7 @@ name: Echo Time
 
 on: 
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/15 * * * *'
 
 jobs:
   hello:
